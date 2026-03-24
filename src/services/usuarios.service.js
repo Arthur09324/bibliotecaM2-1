@@ -35,4 +35,12 @@ const criarUsuario = async ({ nome, email }) => {
   return novoUsuario;
 };
 
-module.exports = { listarTodosUsuarios, criarUsuario };
+const atualizarUsuario = async(usuario)=>{
+const id = usuarios.id;
+usuarios[id] = usuarios;
+
+return true;
+
+}
+
+module.exports = { listarTodosUsuarios, criarUsuario, atualizarUsuario };
