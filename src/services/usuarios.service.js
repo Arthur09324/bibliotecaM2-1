@@ -37,7 +37,7 @@ const criarUsuario = async ({ nome, email }) => {
 
 const atualizarUsuario = async(usuario)=>{
 const id = usuarios.id;
-usuarios[id] = usuarios;
+usuarios[id] = usuarios;hund
 
 return true;
 
